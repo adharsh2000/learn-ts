@@ -1,10 +1,9 @@
-
-import Greet from "./components/Greet";
+import Input from "./components/Input";
 import "./index.css";
 function App() {
   return (
     <>
-     <Greet isLoggedin={true} name="kiran" count={89} />
+      <Input  />
     </>
   );
 }
